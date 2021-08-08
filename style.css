@@ -1,0 +1,38 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    background-color: #fffff2;
+    
+    margin-left: 370px;
+    margin-right: 370px;
+}
+#informacoes {
+    background: rgb(59, 59, 59);
+    color: #fffff2;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#link-info{
+    color: #fffff2;
+    text-decoration: none;
+}
+p{
+    text-align: center
+}
+h1{
+    text-align: center
+}
+h2{
+    text-align: center;
+    background: rgb(59, 59, 59);
+    color: #fffff2
+}
+h3{
+    text-align: center
+}
+h4{
+    text-align: center
+}
+ul{
+    text-align: center
+}
