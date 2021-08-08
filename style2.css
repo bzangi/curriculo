@@ -1,9 +1,105 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(255, 166, 49);
-    color: #0000FF;
+    background: rgb(149, 19, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
 }
 
-.texto{
+.content{
+    width: 50vw;
+    min-height: 100%;
+}
+header{
+    margin-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    color: #ffffff;
+}
+
+.img-header{
+   display: flex;
+   align-items: center;
+}
+
+.java-logo{
+    height: "70px";
+    width: 5rem;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 15px;
+    background: white;
+}
+
+h4{
+    font-weight: 400;
     color: white;
+    text-justify: auto;
+}
+
+.conteudo-dois{
+    display: inline-flex;    
+}
+
+.list-style{
+    font-size: 40px;
+    list-style-type: none;
+    line-height: 100px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+nav{
+    color: white;
+}
+
+.list-padroes{
+    padding: 0px;
+}
+
+.list-padroes li{
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+p, h3, h2{
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(112, 13, 129);
+    width: 100%;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.rodape-dois{
+    position: absolute;
+    bottom: 0;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 15px 0;
 }
