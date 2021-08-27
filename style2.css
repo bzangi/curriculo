@@ -103,3 +103,42 @@ footer{
     justify-content: center;
     padding: 15px 0 15px 0;
 }
+
+.formulario-contato h4{
+    margin-top: 0px;
+    padding: 0;
+}
+
+.formulario-contato input{
+    height: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.formulario-contato textarea{
+    resize: none;
+    width: 100%;
+    max-width: 500px;
+}
+
+.formulario-contato td{
+    vertical-align: middle;
+    margin-top: 60px;
+}
+
+.formulario-contato .submit{
+    height: 30px;
+    max-width: 200px;
+    background: #00ff00;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.formulario-contato .reset{
+    height: 30px;
+    max-width: 200px;
+    background: #4c0000;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
