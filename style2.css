@@ -95,6 +95,7 @@ footer{
     position: fixed;
     bottom: 0;    
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #cf4242;
@@ -102,6 +103,11 @@ footer{
     height: 60px;
 }
 
+
+.infos-footer{
+    margin-top: 5px;
+    color: #fff;
+}
 
 .video{
     display: flex;
@@ -159,7 +165,7 @@ footer{
     height: 400px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1080px){
     .content{
         width: 100%;
     }
