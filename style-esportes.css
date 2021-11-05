@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ce5e5e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 50vw;
+    min-height: 100%;
+    padding-bottom: 80px;
+}
+header{
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+    background-image:     
+        linear-gradient(90deg, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 0%, rgba(0,0,0,0.53) 0%),     
+        url('https://feedfood.com.br/wp-content/uploads/2021/01/investimento-em-tecnologia.jpg');
+}
+
+
+header h1{
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    color: #ce5e5e;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff,
+     0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff,
+     1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.java-logo{
+    width: 5rem;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 15px;
+    background: white;
+}
+
+footer{
+    align-items: center;
+    background: #cf4242;
+    bottom: 0;
+    display: flex;
+
+    flex-direction: column;
+    height: 70px;
+    justify-content: center;
+    position: absolute;  
+
+    text-decoration: none;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.infos-footer{
+    margin: 5px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1080px){
+    .content{
+        width: 100%;
+    }
+}
